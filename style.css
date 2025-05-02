@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 40%;
+    height: 70vh;
+    margin: 6% auto;
+}
+#loanform{
+    border-radius: 20px;
+    box-shadow: 0 0 3px #777;
+    padding: 30px;
+    display: block;
+}
+#loanform h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 1rem;
+    font-weight: 550;
+    padding-bottom: 6px;
+
+}
+select{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    border: 2px solid #777;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2px solid #777;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 14px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+}
+#result{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 13px;
+    border-radius: 8;
+    margin-top: 30px;
+}

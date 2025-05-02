@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Calculation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+
+        <form id="loanform">
+            <h1>Pricing Calculator App</h1>
+
+            <div class="form-group">
+                <label for="items">Select Product/Item</label>
+                <select name="items" id="items" required>
+                    <option value="20">Shoes</option>
+                    <option value="50">Pots</option>
+                    <option value="15">A kilo of Chicken</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="numberOfItems">Enter the number of items</label>
+                <input type="number" id="numberOfItems" required>
+            </div>
+
+            <div class="btn">
+                <button id="calculatePrice">Calculate</button>
+            </div>
+
+            <div id="result"></div>
+
+        </form>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
